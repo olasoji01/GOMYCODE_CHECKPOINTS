@@ -1,3 +1,8 @@
+ --What You're Aiming For:
+--In this checkpoint, we will practice the acquired skills through a new example.
+
+-- Consider the following entity-relationship(conceptual) diagram: https://i.imgur.com/Jbjp9Ur.png
+
 CREATE DATABASE RDM_Checkpoint
 USE RDM_Checkpoint
 
