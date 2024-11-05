@@ -1,3 +1,9 @@
+-- What You're Aiming For
+-- Implement a relational database schema based on the provided entities and their attributes
+-- Instructions: Based on the provided data types and constraints, implement the relational model using SQL.
+-- Note: ALL COLUMNS SHOULD HAVE THE 'NOT NULL' CONSTRAINT
+
+
 CREATE DATABASE Checkpoints
 
 -- DATA DEFINITION LANGUAGE CHECKPOINT
