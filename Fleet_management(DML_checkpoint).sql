@@ -1,4 +1,27 @@
 -- DATA MANIPULATION LANGUAGE CHECKPOINT
+--  What You're Aiming For: The objective here is to implement SQL DML queries to manage records within the database tables defined in the relational schema.
+-- Instructions:
+--    Write SQL queries to insert the provided records into their respective tables.
+--    Update the cost of the second maintenance record to 350.00.
+--    Delete the first vehicle from the Vehicles table.
+--    Insert one more record into the Trips table with the following details:
+--       VehicleID: 2
+--        DriverID: 1
+--        StartDate: '2024-07-05'
+--        EndDate: '2024-07-06'
+--        StartLocation: "Boston"
+--        EndLocation: "Philadelphia"
+--        Distance: 300
+--    Update the color of the second vehicle in the Vehicles table to "Red".
+--    Insert a new maintenance record into the Maintenance table with the following details:
+--        VehicleID: 1
+--        MaintenanceDate: '2024-07-10'
+--        Description: "Brake inspection"
+--        Cost: 100.00
+--    Update the phone number of the first driver in the Drivers table to "2223334444".
+--    Delete the trip with TripID = 2 from the Trips table.
+
+
 CREATE TABLE Vehicles(
 		LicensePlate VARCHAR(20),
 		Make VARCHAR(20),
