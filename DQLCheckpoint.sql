@@ -1,4 +1,22 @@
 -- DATA QUERY LANGUAGE CHECKPOINT
+--  What You're Aiming For :Utilizing the provided tables - Products, Customers, Orders, OrderDetails, and ProductTypes - the objective is to formulate SQL queries to retrieve relevant data using Data Query Language (DQL)
+-- Instructions:
+--  Retrieve all products.
+--  Retrieve all customers.
+--  Retrieve all orders.
+--  Retrieve all order details.
+--  Retrieve all product types.
+--  Retrieve the names of the products that have been ordered by at least one customer, along with the total quantity of each product ordered.
+--  Retrieve the names of the customers who have placed an order on every day of the week, along with the total number of orders placed by each customer.
+--  Retrieve the names of the customers who have placed the most orders, along with the total number of orders placed by each customer.
+--  Retrieve the names of the products that have been ordered the most, along with the total quantity of each product ordered.
+--  Retrieve the names of customers who have placed an order for at least one widget.
+--  Retrieve the names of the customers who have placed an order for at least one widget and at least one gadget, along with the total cost of the widgets and gadgets ordered by each customer.
+--  Retrieve the names of the customers who have placed an order for at least one gadget, along with the total cost of the gadgets ordered by each customer.
+--  Retrieve the names of the customers who have placed an order for at least one doohickey, along with the total cost of the doohickeys ordered by each customer.
+--  Retrieve the names of the customers who have placed an order every day of the week, along with the total number of orders placed by each customer.
+--  Retrieve the total number of widgets and gadgets ordered by each customer, along with the total cost of the orders.
+
 CREATE TABLE Products(
 	   ProductID INT PRIMARY KEY,
 	   ProductName VARCHAR(100),
